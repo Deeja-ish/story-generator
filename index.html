@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
+    <div class="first">
     <h1>My first AI Story Generator</h1>
     <main>
         <form action="">
-           <input type="text" id="story" placeholder="Enter the type of story you want e.g Scary story"
+           <input type="text" placeholder="Enter the type of story you want e.g Scary story"
            required
-           autocomplete="off"/>
-           <input type="search" placeholder="Search"/>
+           autofocus
+           autocomplete="off"
+           class="story"/>
+           <button class="submit"> Submit </button>
         </form>
-        <div>
+        <div class="story-div">
             Dust motes danced in the moonlit hall. 
             <br/>
             A single rocking chair moved, tap... tap... tap.  No breeze stirred. 
-            Then, a voice, soft as falling snow, "You're not alone."  Beneath the chair,
+            Then, a voice, soft as falling snow, "You're not alone."  
+            <br/>Beneath the chair,
             <br/> 
             a pale hand tightened on the floorboards.
         </div>
@@ -29,5 +33,6 @@
     </footer>
     <script src="src/index.js">
     </script>
+      </div>
 </body>
 </html>
