@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Story Generator </title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -10,7 +11,7 @@
     <div class="first">
     <h1>My first AI Story Generator</h1>
     <main>
-        <form action="">
+        <form action="" id="story-generator">
            <input type="text" placeholder="Enter the type of story you want e.g Scary story"
            required
            autofocus
@@ -18,14 +19,7 @@
            class="story"/>
            <button class="submit"> Submit </button>
         </form>
-        <div class="story-div">
-            Dust motes danced in the moonlit hall. 
-            <br/>
-            A single rocking chair moved, tap... tap... tap.  No breeze stirred. 
-            Then, a voice, soft as falling snow, "You're not alone."  
-            <br/>Beneath the chair,
-            <br/> 
-            a pale hand tightened on the floorboards.
+        <div class="story-div" id="division-story">
         </div>
     </main>
     <footer>
