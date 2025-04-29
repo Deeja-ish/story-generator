@@ -19,8 +19,8 @@ This project is a web-based story generator that leverages an AI API to create u
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [repository URL]
-    cd [repository name]
+    git clone https://github.com/Deeja-ish/story-generator.git
+    cd Deeja-ish/story-generator.git
     ```
 
 2.  **API Key and `apiURL`:**
@@ -57,13 +57,8 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## License
 
-[Your Project License] (e.g., MIT License, Apache 2.0) - You should include a license file in your repository.
+    MIT License
 
 ## Acknowledgements
 
-* Thanks to [Name of the AI API provider] for providing the AI technology.
-* [Optional: Mention any libraries or resources you used.]
-
----
-
-This README provides a comprehensive overview of your AI-powered story generator. Remember to replace the bracketed placeholders with your specific project details. Good luck with your project!
+* Thanks to SheCodes for providing the AI technology.
