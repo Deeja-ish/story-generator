@@ -57,7 +57,7 @@ If you'd like to contribute to this project, please follow these steps:
 
 ## License
 
-    MIT License
+    LICENSE.md
 
 ## Acknowledgements
 
